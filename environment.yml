@@ -1,0 +1,17 @@
+name: naps-mci
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - networkx
+  - pip
+  - pip:
+      - pymatgen
+      - pymatgen-analysis-diffusion
+      - ase
+# NOTE: the ACE tools (pyace, pacemaker) required by mlip/ and
+# analysis/validation.py are installed separately following the
+# python-ace / pacemaker documentation (https://pacemaker.readthedocs.io).

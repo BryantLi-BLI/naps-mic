@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+
+# Large data artifacts (distributed via MPContribs, not git)
+*.pckl.gzip
+*.pkl.gzip
+*.json.gz
+*.dump
+*.lammpstrj
+*.xyz
+XDATCAR*
+
+# Analysis outputs
+*.npz
+*.png
+*.pdf
+
+# OS
+.DS_Store

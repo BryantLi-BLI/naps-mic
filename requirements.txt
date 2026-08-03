@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+networkx
+pymatgen
+pymatgen-analysis-diffusion
+ase
+# ACE tools (pyace, pacemaker) are installed separately; see README.md.
