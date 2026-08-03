@@ -46,8 +46,8 @@ def setup_logging(log_file):
 def parse_args():
     parser = argparse.ArgumentParser(description='Batch process XDATCAR files for Onsager analysis')
     parser.add_argument('--input_dir', type=str,
-                        default='/Users/bli/globus_dir/17.NaPS_al/03.RDF_diffusivity_data_benchmarks/amorphous_diff_data_new_pt3_10ns',
-                        help='Directory containing XDATCAR files')
+                        required=True,
+                        help='Directory containing XDATCAR files (trajectories from MPContribs)')
     parser.add_argument('--output_dir', type=str,
                         default='./Onsager_analyzers',
                         help='Output directory for results')

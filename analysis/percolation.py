@@ -28,11 +28,8 @@ import pickle
 # CONFIGURATION
 # =============================================================================
 
-DUMP_FILE = "/global/homes/b/blilmps/globus_dir/20.interface_data/20.all_interface_runs/trajectories/master_coordinates.dump"
+DUMP_FILE = ""  # path to master_coordinates.dump (download from MPContribs — see top-level README.md)
 OUTPUT_DIR = "percolation_results"
-
-# Local path for development/testing
-DUMP_FILE_LOCAL = "/Users/bli/globus_dir/20.interface_data/20.all_interface_runs/trajectories/master_coordinates.dump"
 
 # Fractional coordinate bounds for interphase region in z
 Z_FRAC_MIN = 0.54

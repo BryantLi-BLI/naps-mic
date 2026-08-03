@@ -1,7 +1,10 @@
 numpy
 pandas
 matplotlib
+scipy
 networkx
+tqdm
+joblib
 pymatgen
 pymatgen-analysis-diffusion
 ase
