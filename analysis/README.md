@@ -27,3 +27,7 @@ additionally requires `pyace` installed into that same environment.
 `onsager/run_batch.py` drives the per-composition Green-Kubo analysis
 (`onsager_io.py`, `onsager_processing.py`, `onsager_utils.py`) and
 `onsager_plotting.py` renders the flux/coefficient figures.
+
+The Onsager scripts depend on **`py_oats`**, a private package maintained by
+[@vir-karan](https://github.com/vir-karan). It is not available on PyPI.
+Contact the maintainer directly to request access before running these scripts.
