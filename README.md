@@ -38,9 +38,9 @@ These exceed a normal git repository and are hosted externally:
 
 | Artifact | Location |
 | --- | --- |
-| Training dataset (20,114 structures, r²SCAN labels) | MPContribs — [link to be added] |
-| Raw DFT reference calculations | MPContribs — [link to be added] |
-| Interface MD trajectories | MPContribs — [link to be added] |
+| Training dataset (20,114 structures, r²SCAN labels) | [MPContribs — naps\_mci](https://contribs.materialsproject.org/projects/naps_mci) (public upon publication) |
+| Raw DFT reference calculations | MPContribs — naps\_mci (public upon publication) |
+| Interface MD trajectories | MPContribs — naps\_mci (public upon publication) |
 
 Download the training dataset next to `mlip/input.yaml` (or update the
 `data.filename` field) to retrain, and provide the MD dumps to the analysis
