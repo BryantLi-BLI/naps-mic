@@ -1,4 +1,4 @@
-name: naps-mci
+name: ace
 channels:
   - conda-forge
 dependencies:

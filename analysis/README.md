@@ -1,8 +1,8 @@
 # Analysis
 
-Scripts that produce the quantitative results and figures. Run in the analysis
-environment (`conda env create -f ../environment.yml`), except `validation.py`
-which additionally needs `pyace`.
+Scripts that produce the quantitative results and figures. Run in the `ace`
+conda environment (`conda env create -f ../environment.yml`); `validation.py`
+additionally requires `pyace` installed into that same environment.
 
 | Script | Produces | Key inputs |
 | --- | --- | --- |

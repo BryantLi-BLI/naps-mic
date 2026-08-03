@@ -48,15 +48,16 @@ scripts as described in `analysis/README.md`.
 
 ## Environment
 
-Two environments are used. Create them from the provided files:
+All scripts run in a single conda environment named `ace`:
 
 ```bash
-conda env create -f environment.yml   # analysis (pymatgen, ase, numpy, pandas, networkx)
+conda env create -f environment.yml   # creates the `ace` env (pymatgen, ase, numpy, pandas, networkx)
+conda activate ace
 ```
 
-The ACE tools (`pyace`, `pacemaker`) used by `mlip/` and `analysis/validation.py`
-are installed separately following the
-[python-ace / pacemaker instructions](https://pacemaker.readthedocs.io).
+The ACE tools (`pyace`, `pacemaker`) required by `mlip/` (retraining) and
+`analysis/validation.py` are installed into this same environment separately,
+following the [python-ace / pacemaker instructions](https://pacemaker.readthedocs.io).
 
 ## Reproducing
 
